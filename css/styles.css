@@ -25,7 +25,7 @@ body{
 }
 
 .nav-content{
-  width: 80%;
+  width: 70%;
   height: 50px;
   display: flex;
   flex-direction: row;
@@ -42,13 +42,15 @@ body{
   flex: 3;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   list-style-type: none;
 }
 
 .nav-links a{
   text-decoration: none;  
   color: white;
+  padding: 0 10px;
+  font-size: 0.8em;
 }
 
 .nav-btn{
@@ -58,7 +60,7 @@ body{
 }
 
 .btn{
-  width: 100px;
+  width: 70px;
   height: 20px;
   background-color: #8d93fe;
   border: none;
@@ -67,7 +69,7 @@ body{
 
 /* contenido de la página */
 .cuerpo-perfil{
-  width: 80%;
+  width: 70%;
   display: flex;
   margin-top: 20px;
 }
@@ -102,11 +104,11 @@ body{
 }
 
 .user-img{
-  width: 100px;
+  width: 70px;
   border-radius: 50%;
   position: absolute;
-  top: 30px;
-  left: 20px;
+  top: 40px;
+  left: 25px;
   border: white solid 2px;
   outline: #D0D0D0 solid 3px;
 }
@@ -114,7 +116,7 @@ body{
 .info-card{
   display: flex;
   flex-direction: column;
-  padding: 60px 25px 25px;
+  padding: 35px 25px 10px;
 }
 
 .ubicacion, .link{
@@ -157,7 +159,7 @@ body{
 }
 
 .inf{
-  padding: 5px 0;
+  padding: 2px 0;
 }
 
 .fecha{
@@ -177,6 +179,9 @@ body{
   color: white;
   display: flex;
   padding: 10px;
+  gap: 5px;
+  font-size: 0.7em;
+  align-items: center;
 }
 
 .num-contact{
@@ -184,7 +189,7 @@ body{
   align-items: center;
   justify-content: center;
   width: auto;
-  height: 20px;
+  height: 18px;
   background-color: #858585;
   border-radius: 50%;
   margin-right: 5px;
@@ -208,7 +213,7 @@ body{
   flex: 2;
   display: flex;
   align-items: center;
-  margin: 5px 0;
+  margin: 3px 0;
 }
 
 .iconos{
@@ -245,7 +250,7 @@ body{
 .contact{
   display: flex;
   align-items: center;
-  margin: 10px;
+  margin: 3px;
 }
 
 
@@ -253,5 +258,5 @@ body{
   border-left: #D0D0D0 solid 2px;
   border-right:#D0D0D0 solid 2px;
   border-bottom: #D0D0D0 solid 2px;
-  padding: 10px;
+  padding: 10px 20px;
 }
